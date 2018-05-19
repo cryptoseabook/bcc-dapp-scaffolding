@@ -65,7 +65,7 @@ App = {
           }
 
           $('#account').text(account);
-          $('#accountBalance').text(balance + " BCCT");
+          $('#accountBalance').text(balance + " ABNB");
         });
       }
     })
