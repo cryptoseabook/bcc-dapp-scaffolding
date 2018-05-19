@@ -1,3 +1,9 @@
 .booked {
     background-color: greenyellow;
 }
+
+.room-template {
+  display: block;
+  height: 280px;
+  width: 250px;
+}
