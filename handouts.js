@@ -22,3 +22,6 @@ offerRoomEvent.watch(function(error, result) {console.log(result.args);});
 
 var bookRoomEvent = roomBooking.BookRoomEvent({fromBlock: 0, toBlock: 'latest'});
 bookRoomEvent.watch(function(error, result) {console.log(result.args);});
+
+
+503038655b377528c2b626dc10faa36c9339b8ea6d9923e325ae99f7b0931170

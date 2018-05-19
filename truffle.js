@@ -1,7 +1,5 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var mnemonic = "twelve words for generating a serial ethereum address based on same seed!";
-
-
+var mnemonic = "scorpion pink explain price crop level meadow arch boat lucky dry music";
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -12,18 +10,18 @@ module.exports = {
       port: 7545,
       network_id: "*" // Match any network id
     },
-    bccpc: {
-      host: "10.0.0.24",
+    bccprivatechain: {
+      host: "192.168.15.12",
       port: 8545,
-      network_id: "2048",
-      gas: 4700000
+      network_id: "1234",
+      gas: 4000000
     },
     kovan: {
       provider: function() {
         return new HDWalletProvider(mnemonic, "https://kovan.infura.io/H0MnmEaaittMM4B3XX2S")
       },
       network_id: 42,
-      gas: 4700000
+      gas: 4000000
     }
   }
 

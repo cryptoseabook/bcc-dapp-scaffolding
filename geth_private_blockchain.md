@@ -1,3 +1,5 @@
+
+
  - using geth to setup local private Blockchain
  - creating a folder (~/blockchain/bcc-dapp-privatechain/private)
  - create a gensis block by using `puppeth`
@@ -15,3 +17,6 @@
 ```
 
 https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console
+
+ - deploy to local private network
+ - deploy to kovan test network
